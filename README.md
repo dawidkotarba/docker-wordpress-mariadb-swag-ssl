@@ -6,8 +6,8 @@ Before the installation, you need to update DNS records of your domain, i.e.:
 
 | Subdomain | Value            | Record type | 
 |-----------|------------------|-------------|
-| @         | <ip of the host> | A           |
-| www       | <ip of the host> | A           |
+| @         | ip of the host | A           |
+| www       | ip of the host | A           |
 
 
 And then:
