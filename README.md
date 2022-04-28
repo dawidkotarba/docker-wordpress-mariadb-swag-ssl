@@ -3,11 +3,12 @@
 ## Installation:
 
 Before the installation, you need to update DNS records of your domain, i.e.:
-```
-Subdomain| Value| Record type | 
-@	| <ip of the host> |	A 
-www	| <ip of the host> |	A 
-```
+
+| Subdomain | Value            | Record type | 
+|-----------|------------------|-------------|
+| @         | <ip of the host> | A           |
+| www       | <ip of the host> | A           |
+
 
 And then:
 
@@ -17,6 +18,6 @@ And then:
 4. Run: `docker-compose up` or `docker-compose up -d` for the detached mode to run it in background.
 
 
-Based on [docker-compose-wordpress-ssl](https://github.com/dawidkotarba/docker-compose-wordpress-ssl) and fantastic post:
+Based on [docker-compose-wordpress-ssl](https://github.com/dawidkotarba/docker-compose-wordpress-ssl) and a fantastic post:
 [Quickly setup WordPress & SSL via Let’s Encrypt and Certbot using Docker Compose
 ](https://carlwillimott.medium.com/quickly-setup-wordpress-ssl-via-lets-encrypt-and-certbot-b29e8abf2072)
