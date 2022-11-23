@@ -29,7 +29,7 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress-db-password
 
   swag:
-    image: linuxserver/swag
+    image: linuxserver/swag:1.26.0-ls123
     container_name: swag
     depends_on:
       - wordpress
