@@ -12,7 +12,7 @@ services:
       MYSQL_DATABASE: wordpress
 
   wordpress:
-    image: wordpress:latest
+    image: wordpress:latest #I used wordpress:5.9.2
     container_name: wordpress
     hostname: wordpress
     depends_on:
